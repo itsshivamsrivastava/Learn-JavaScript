@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    /* padding: 30px 0px; */
+}
+.logo{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 3px 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.navbar-collapse{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    margin: 0px 5px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    padding: 7px 7px 7px 7px;
+    color: #000000;
+
+}
+.nav-link-cf{
+    color: #000000;
+    border-radius: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    padding: 7px 7px 7px 7px;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 7px 7px 7px 7px;
+}
+
+.nav-link-cf:hover{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 7px 7px 7px 7px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#counter-heading{
+    width: max-content;
+    padding: 7px;
+    border-bottom: 2px solid #000000;
+    margin: 5px;
+    color: #000;
+    display: flex;
+    margin: auto;
+    font-size: 3.5rem;
+}
+#counter{
+    width: max-content;
+    padding: 7px;
+    margin: 5px;
+    color: #000;
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+}
+.button-group{
+    width: 20rem;
+    display: flex;
+    margin: 16px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+}
